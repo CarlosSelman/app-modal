@@ -1,0 +1,17 @@
+.modal-container{
+  padding:5px;
+  background-color:white;
+  overflow: hidden;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.5);
+}
+
+.header{
+  border-bottom:1px solid lightgray;
+  cursor:move;
+}
+
+.close{
+  float:right;
+  font-weight:5px;
+  cursor:pointer;
+}

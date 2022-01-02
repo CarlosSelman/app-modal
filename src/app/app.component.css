@@ -1,0 +1,33 @@
+/* .modal-demo .ui-modal {
+    width: 37.5rem;
+    
+  }
+  .modal-demo .ui-modal-overlay, .modal-demo .ui-modal {
+    z-index: 10;
+  }
+ 
+  :root {
+    --dt-color-primary: #5b9bd5;
+  }
+ 
+  .ui-modal-header {
+    background-color: #5b9bd5;
+  } */
+
+  .modal-container{
+    width:400px;
+    height:150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:5px;
+    background-color:white;
+  }
+  .header{
+    border-bottom:1px solid black;
+    cursor:move;
+  }
+  .close{
+    float:right;
+    font-weight:5px;
+    cursor:pointer;
+  }

@@ -1,0 +1,36 @@
+<!-- <button type="button" class="button" (click)="modalRoot.show()">Open modal</button>
+<button type="button" class="button" (click)="modalRoot2.show()">Open modal2</button>
+
+<app-modal #modalRoot class="modal-demo" [maximizable]="true" [backdrop]="false">
+  <ng-container class="app-modal-header">Demo modal</ng-container>
+  <ng-container class="app-modal-body">
+    <h3>MODAL DIALOG</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+  </ng-container>
+  <ng-container class="app-modal-footer">
+    <button type="button" class="button button3" (click)="modalRoot.hide()">Delete</button>
+    <button type="button" class="button button1" (click)="modalRoot.hide()">Save</button>
+    <button type="button" class="button button2" style="float: right;" (click)="modalRoot.hide()">Close
+    </button>
+  </ng-container>
+</app-modal>
+
+<app-modal #modalRoot2 class="modal-demo" [maximizable]="true" [backdrop]="false" [inViewport]="true">
+  <ng-container class="app-modal-header">Demo modal</ng-container>
+  <ng-container class="app-modal-body">
+    <h3>MODAL DIALOG</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+  </ng-container>
+  <ng-container class="app-modal-footer">
+    <button type="button" class="btn btn-danger" (click)="modalRoot2.hide()">Delete</button>
+    <button type="button" class="button button1" (click)="modalRoot2.hide()">Save</button>
+    <button type="button" class="button button2" style="float: right;" (click)="modalRoot2.hide()">Close
+    </button>
+  </ng-container>
+</app-modal> -->
+<button type="button" class="btn btn-primary"(click)="OpenModal()">Add Modal</button>
+  <button type="button" class="btn btn-danger" (click)="RemoveAll()">Remove all</button>
+  <multiple-draggable-modals #modals></multiple-draggable-modals>
+<router-outlet></router-outlet>
